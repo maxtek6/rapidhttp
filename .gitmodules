@@ -1,0 +1,6 @@
+[submodule "vendor/libevent"]
+	path = vendor/libevent
+	url = https://github.com/libevent/libevent
+[submodule "vendor/mbedtls"]
+	path = vendor/mbedtls
+	url = https://github.com/Mbed-TLS/mbedtls
