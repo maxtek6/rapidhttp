@@ -1,10 +1,1 @@
-set(GEN_FILES ON CACHE BOOL "")
-add_subdirectory(mbedtls)
-
-#set(EVENT__DISABLE_MBEDTLS ON CACHE BOOL "Disable mbedTLS")
-set(EVENT__DISABLE_TESTS ON CACHE BOOL "")
-set(EVENT__DISABLE_REGRESS ON CACHE BOOL "")
-set(EVENT__DISABLE_BENCHMARK ON CACHE BOOL "")
-set(EVENT__DISABLE_SAMPLES ON CACHE BOOL "")
-add_subdirectory(libevent)
-
+add_subdirectory(libevent-openssl)
